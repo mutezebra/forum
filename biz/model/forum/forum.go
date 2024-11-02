@@ -5,7 +5,9 @@ package forum
 import (
 	"context"
 	"fmt"
+
 	"github.com/apache/thrift/lib/go/thrift"
+
 	"github.com/mutezebra/forum/biz/model/base"
 )
 

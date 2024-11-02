@@ -2,6 +2,7 @@ package pack
 
 import (
 	"errors"
+
 	"github.com/mutezebra/forum/biz/model/base"
 	"github.com/mutezebra/forum/pkg/errno"
 	"github.com/mutezebra/forum/pkg/logger"

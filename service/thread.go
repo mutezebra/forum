@@ -2,10 +2,11 @@ package service
 
 import (
 	"context"
+	"time"
+
 	"github.com/mutezebra/forum/biz/model/forum"
 	"github.com/mutezebra/forum/pkg/pack"
 	"github.com/mutezebra/forum/pkg/utils"
-	"time"
 )
 
 func (svc *Service) CreateThread(ctx context.Context, req *forum.CreateThreadReq) (resp *forum.CreateThreadResp, err error) {

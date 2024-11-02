@@ -18,7 +18,7 @@ fmt:
 # 优化 import 顺序结构
 .PHONY: import
 import:
-	goimports -w -local github.com/mutezebra/subject-review .
+	goimports -w -local github.com/mutezebra/forum .
 
 # 检查可能的错误
 .PHONY: vet

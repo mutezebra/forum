@@ -4,6 +4,7 @@ package router
 
 import (
 	"github.com/cloudwego/hertz/pkg/app/server"
+
 	base "github.com/mutezebra/forum/biz/router/base"
 	forum "github.com/mutezebra/forum/biz/router/forum"
 )

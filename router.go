@@ -4,6 +4,7 @@ package main
 
 import (
 	"github.com/cloudwego/hertz/pkg/app/server"
+
 	handler "github.com/mutezebra/forum/biz/handler"
 )
 

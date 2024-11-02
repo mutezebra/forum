@@ -7,6 +7,7 @@ import (
 
 	"github.com/cloudwego/hertz/pkg/app"
 	"github.com/cloudwego/hertz/pkg/protocol/consts"
+
 	base "github.com/mutezebra/forum/biz/model/base"
 )
 

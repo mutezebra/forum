@@ -2,13 +2,12 @@ package jwt
 
 import (
 	"github.com/golang-jwt/jwt"
-	"github.com/mutezebra/forum/config"
 	"github.com/pkg/errors"
+
+	"github.com/mutezebra/forum/config"
 )
 
-var (
-	jwtSecret []byte
-)
+var jwtSecret []byte
 
 // CheckToken 接收一个token,返回uid,valid,err
 func CheckToken(token string) (string, bool, error) {

@@ -1,19 +1,23 @@
 package service
 
 import (
+	"sync"
+
+	"github.com/pkg/errors"
+
 	"github.com/mutezebra/forum/biz/model/forum"
 	"github.com/mutezebra/forum/pkg/errno"
 	"github.com/mutezebra/forum/repository"
-	"github.com/pkg/errors"
-	"sync"
 )
 
 type Service struct {
 	db *repository.ForumDB
 }
 
-var once sync.Once
-var obj *Service
+var (
+	once sync.Once
+	obj  *Service
+)
 
 func GetService() *Service {
 	once.Do(func() {

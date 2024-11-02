@@ -4,6 +4,7 @@ package forum
 
 import (
 	"github.com/cloudwego/hertz/pkg/app"
+
 	"github.com/mutezebra/forum/pkg/middleware"
 )
 

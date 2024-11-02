@@ -2,6 +2,7 @@ package middleware
 
 import (
 	"context"
+
 	"github.com/mutezebra/forum/pkg/constants"
 	"github.com/mutezebra/forum/pkg/errno"
 	"github.com/mutezebra/forum/pkg/jwt"

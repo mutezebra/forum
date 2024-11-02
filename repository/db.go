@@ -2,10 +2,12 @@ package repository
 
 import (
 	"context"
-	"github.com/mutezebra/forum/biz/model/forum"
-	"github.com/mutezebra/forum/pkg/client"
+
 	"github.com/pkg/errors"
 	"gorm.io/gorm"
+
+	"github.com/mutezebra/forum/biz/model/forum"
+	"github.com/mutezebra/forum/pkg/client"
 )
 
 type ForumDB struct {

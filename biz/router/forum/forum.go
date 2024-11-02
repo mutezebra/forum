@@ -4,6 +4,7 @@ package forum
 
 import (
 	"github.com/cloudwego/hertz/pkg/app/server"
+
 	forum "github.com/mutezebra/forum/biz/handler/forum"
 )
 

@@ -3,9 +3,10 @@ package client
 import (
 	"context"
 	"fmt"
+	"time"
+
 	"github.com/mutezebra/forum/config"
 	"github.com/mutezebra/forum/pkg/logger"
-	"time"
 
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"

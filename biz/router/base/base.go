@@ -4,6 +4,7 @@ package base
 
 import (
 	"github.com/cloudwego/hertz/pkg/app/server"
+
 	base "github.com/mutezebra/forum/biz/handler/base"
 )
 
