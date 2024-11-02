@@ -1,0 +1,21 @@
+version: '3.7'
+
+networks:
+  forum:
+    driver: bridge
+
+services:
+  mysql:
+    container_name: forum-db
+    image: mysql:latest
+    restart: always
+    volumes:
+      - ./config/mysql-init:/docker-entrypoint-initdb.d
+    environment:
+      - MYSQL_ROOT_PASSWORD=pa123ss456word789
+      - MYSQL_DATABASE=forum
+      - TZ=Asia/Shanghai
+    ports:
+      - "3306:3306"
+    networks:
+      - forum

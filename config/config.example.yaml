@@ -1,0 +1,10 @@
+mysql:
+  username: "root"
+  password: "pa123ss456word789"
+  address: "127.0.0.1:3306"
+  database: "forum"
+  charset: "utf8mb4"
+
+secret:
+  jwt_secret: "flyingpig"
+  issuer: "flyingpig"
