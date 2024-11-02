@@ -6,5 +6,5 @@ mysql:
   charset: "utf8mb4"
 
 secret:
-  jwt_secret: "flyingpig"
-  issuer: "flyingpig"
+  jwt_secret: "asdasda"
+  issuer: "asdasdss"
